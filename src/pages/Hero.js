@@ -6,7 +6,6 @@ function Hero() {
   return (
     <div className='hero'>
       <div className='hero-image'>
-        Hello world
       </div>
       <div className='hot-dog-video'>
       <iframe width="420" height="315"
