@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
+import Hero from './pages/Hero';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useEffect, useState } from 'react';
 function App() {
+  const [click, setClick] = useState(false)
+  // useEffect(() => {
+  //   document.body.addEventListener("click", (e) => {
+  //     if (!document.querySelector("i.fas.fa-bars.fa-xl").contains(e.target)) {
+  //       setClick(false)
+        
+  //     }
+  //   })
+  // })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar click={click} setClick={setClick} />
+        <Routes>
+          <Route path='/' exact element={<Hero />} />
+          <Route path='/menu' exact element={<About />} />
+          <Route path='/about' exact element={<Contact />} />
+
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+    </>
   );
 }
 

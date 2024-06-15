@@ -1,0 +1,16 @@
+.hero{
+    padding-top: 80px ;
+}
+
+.hero-image{
+    background-image: url("../../public/images/dothawg_bg.jpg");
+    height: 95vh;
+}
+
+.hot-dog-video{
+    height:50vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
