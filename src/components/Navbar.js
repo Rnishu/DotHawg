@@ -11,7 +11,7 @@ function Navbar({click, setClick}) {
   return (
     <header>
       <Link to='/' className='logo'>
-        DotHawg <i className="fab fa-typo3"></i>
+        <img src='images/dothawglogotrans.jpg' height='100'></img>
       </Link>
       <div className='hamburger' onClick={handleClick}>
         <i className={click ? 'fas fa-times fa-xl' : 'fas fa-bars fa-xl'} />

@@ -1,15 +1,45 @@
-.hero{
-    padding-top: 80px ;
+.hero {
+    padding-top: 80px;
 }
 
-.hero-image{
+.header-slogan {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:xx-large
+}
+
+.hero-image {
     background-image: url("../../public/images/dothawg_bg.jpg");
     height: 95vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.hot-dog-video{
-    height:50vh;
-    width:100%;
+.home-order-button {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    margin-right: 0.5rem;
+    height: auto;
+    width: 7.5rem;
+    /* height: min-content; */
+    margin-top: 18px;
+    display: flex;
+    text-align: center;
+}
+
+.home-order-button img {
+    height:auto;
+    width:100%
+    
+}
+
+
+
+.hot-dog-video {
+    height: 50vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
