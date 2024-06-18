@@ -1,0 +1,46 @@
+.main-menu{
+    background-image: url(https://subway.in/static/media/GrillsBG.663d1bcd8eb76f4ea275.webp);
+    background-size: cover;
+    height: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-main-slogan {
+    font-family: "Chewy", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:4rem;
+    color:bisque;
+    padding:0 32px
+
+
+}
+
+.menu-main-content-text{
+    align-self: center;
+    font-size: 30px;
+    color:white;
+}
+
+.menu-main-content-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-main-content-items > *{
+    margin: 10px;
+}
+
+.menu-semi-circle{
+    background-image: url("https://subway.in/static/media/chef-special-logo.c35b4155c1e217aeff84.webp");
+    height:200px;
+    width:400px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    transform:translateY(18px);
+}
+

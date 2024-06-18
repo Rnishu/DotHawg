@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 import Hero from './pages/Hero';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Menu from './pages/Menu';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from 'react';
 function App() {
@@ -24,8 +24,8 @@ function App() {
         <Navbar click={click} setClick={setClick} />
         <Routes>
           <Route path='/' exact element={<Hero />} />
-          <Route path='/menu' exact element={<About />} />
-          <Route path='/about' exact element={<Contact />} />
+          <Route path='/menu' exact element={<Menu />} />
+          <Route path='/about' exact element={<About />} />
 
         </Routes>
         <Footer/>
