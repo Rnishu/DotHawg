@@ -1,0 +1,23 @@
+.menu-item img {
+    border-radius: '20px';
+    width: 40vw;
+    height: 40vw;
+    object-fit: 'cover';
+    display: 'block';
+}
+p{
+    font-size: 6vw;
+    margin-top: '10px';
+    color:white
+
+}
+
+@media screen and (min-width:450px) {
+     .menu-item img {
+        height: 20vw;
+        width: 20vw;
+    } 
+    p{
+        font-size: 2vw;
+    }
+}
