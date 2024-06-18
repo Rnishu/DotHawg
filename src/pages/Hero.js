@@ -7,11 +7,11 @@ function Hero() {
     <div className='hero'>
       <div className='hero-image'>
         <h1 className='dot-hawg-header'>
-        <span style={{"color" : "#cc4c4b", "font-family":"Chewy"}}> DOT </span> <span style={{"color" : "black", "font-family":"Chewy"}}> HAWG </span>
+        <span style={{"color" : "#cc4c4b", "font-family":"Chewy"}}> DOT </span> <span style={{"color" : "black", "font-family":"Chewy","WebkitTextStroke":"2px white"}}> HAWG </span>
 
         </h1>
         <h2 className='header-slogan'>
-          BUNS STRAIGHT <br /> FROM HEAVEN
+          BUNS STRAIGHT <br /> <span className='from-heaven'>FROM HEAVEN</span>
         </h2>
         <div className='home-order'>
         <p className='order-from'> Order Now On </p>

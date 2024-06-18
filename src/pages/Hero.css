@@ -3,12 +3,15 @@
 }
 
 .header-slogan {
-    color: #353535;
+    color: lavender;
     font-family: "Chewy", serif;
     font-weight: 700;
     font-style: normal;
     font-size:4rem;
 
+}
+.from-heaven{
+    font-family: "Rye";
 }
 
 h1.dot-hawg-header {
@@ -20,8 +23,10 @@ h1.dot-hawg-header {
 }
 
 .hero-image {
-    background-image: url("../../public/images/dothawg_bg.jpg");
+    background-image: url("../../public/images/herobg2.jpg");
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 95vh;
     display: flex;
     flex-direction: column;
