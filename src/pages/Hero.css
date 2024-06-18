@@ -3,37 +3,61 @@
 }
 
 .header-slogan {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Chewy", serif;
     font-weight: 700;
     font-style: normal;
-    font-size:xx-large
+    font-size:4rem;
+
+}
+
+h1.dot-hawg-header {
+    font-family: "Chewy", serif;
+    font-style: normal;
+    font-size:4rem;
+    padding-top: 50px;
+
 }
 
 .hero-image {
     background-image: url("../../public/images/dothawg_bg.jpg");
+    background-position: center;
     height: 95vh;
     display: flex;
     flex-direction: column;
+    padding-left: 130px;
 }
 
 .home-order-button {
     background-color: transparent;
+    background-size: cover;
     border: none;
-    height: 30px;
-    margin-right: 0.5rem;
-    height: auto;
-    width: 7.5rem;
+    height: 40px;
+    width: 150px;
     /* height: min-content; */
-    margin-top: 18px;
+    margin-top: 30px;
     display: flex;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
-.home-order-button img {
-    height:auto;
-    width:100%
+.home-order{
+    padding-top: 10vh;
+}
+
+.swiggy-button {
+   
+   background-image: url(https://subway.in/static/media/swiggy.720f8f764788f0988289.webp);
+   background-size: contain;
     
 }
+
+.zomato-button {
+   
+    background-image: url(https://subway.in/static/media/zomato.4e0f3920926bf9e420d5.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+ }
 
 
 
@@ -44,3 +68,20 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1025px) {
+    .hero-image {
+        padding-left: 30px;
+    }
+    .header-slogan {
+        
+        font-size:3rem;
+    
+    }
+    
+    h1.dot-hawg-header {
+        font-size:3rem;
+    
+    }
+    
+  }
